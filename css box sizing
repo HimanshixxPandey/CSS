@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: green;
+    }
+    h1{
+    font-family:sans-serif;
+    color:white;
+    text-align:center;
+
+
+}/*with the help of padding we can increase the size*/
+.one{
+    border:2px solid blue;
+    height: 64px;
+    width: 64px;
+    background-color:light green;
+    margin-bottom: 1rem;
+    padding: 16px;
+
+}
+.border-box{
+    border:2px solid blue;
+    height: 64px;
+    width: 64px;
+    background-color:light green;
+    margin-bottom: 1rem;
+    padding: 16px;
+}
+.withnothing{
+    padding:64px;
+    border:64px;
+    background-color:lightcyan;
+}
+</style>
+
+<body>
+    <h1> Hello  Box Sizing</h1>
+    <div class="one">1</div>
+    <div class="one border-box">1</div>
+    <div class="one withnothing">1</div>
+</body>
+</html>
