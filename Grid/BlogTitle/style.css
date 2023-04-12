@@ -1,0 +1,26 @@
+.container
+{
+    height:200px;
+    background-color: white;
+    width:400px;
+    border: grey;
+    display: grid;
+    grid-template-rows: 220px 220px 220px;
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+
+}
+h1{
+    text-align:center
+}
+.box
+{
+    box-sizing: border-box;
+    width: 110%;
+    height: 80%;
+    background: rgba(255, 213, 70, 0.4);
+    border: 2px dashed rgba(236, 198, 48, 0.5);
+}

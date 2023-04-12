@@ -1,0 +1,18 @@
+.container
+{
+    height:700px;
+    width:600px;
+    border:1px solid red;
+    background-color:pink ;
+    display:grid;
+    grid-template-rows:100px 100px;
+    grid-template-columns:100p 100px 100px; 
+    grid-gap:10px;
+    justify-content: center;
+
+}
+.box
+{
+    border:1px solid red;
+    background-color:pink ;
+}
