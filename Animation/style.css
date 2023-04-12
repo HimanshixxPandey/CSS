@@ -1,0 +1,32 @@
+.container
+{
+    width:100%;
+    height:500px;
+    background-color: yellow;
+    border:2px solid red;
+}
+.box
+{
+    height: 212px;
+    width:212px;
+    border:2px solid green;
+    background-color: aqua;
+    animation-name: Himanshi;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: reversel;
+
+}
+@keyframes Himanshi
+{
+    from
+    {
+        width:212px;
+    }
+   to
+   {
+    width:800px;
+   }
+}

@@ -1,0 +1,22 @@
+:root
+{
+    --dark-red:#981a2c;
+    /*      /* Now The scope this variable is global */
+}
+.container
+{
+    border:3px solid brown;
+    background-color: red;
+    height:300px;
+    width:300px;
+    background-color:var(--dark-red);
+}
+.box
+{
+    border:1px solid black;
+    background-color: aqua;
+    --dark-red:#981a2c;
+    /* The scope this variable only in this local scope */
+    color:var(--dark-red);
+
+}
